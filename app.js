@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3001; // Set port from environment variable or default to 3000
+const PORT = process.env.PORT || 8080; // Set port from environment variable or default to 3000
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
